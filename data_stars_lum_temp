@@ -131,7 +131,7 @@ ax.set_xlabel('Color index B-V')
 ax.xaxis.label.set_fontsize(15)
 ax.set_ylabel('Absolute magnitude')
 ax.yaxis.label.set_fontsize(15)
-
+#ax.set_xticklabels(['O', 'B', 'A', 'F', 'G', 'K', 'M'])
 #code in luminosity class
 f = lambda s: 'VII' in s
 b = df_clean['SpType'].map(f)
